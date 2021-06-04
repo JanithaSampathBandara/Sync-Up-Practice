@@ -1,0 +1,7 @@
+<div class="row" style="border: 3px solid darkred;">
+    <p>Home Component</p>
+</div>
+<app-text-field (notify)="getTextData($event)"></app-text-field>
+<app-button [data] = "textData" (sendText)="getTextFromButton($event)"></app-button>
+<app-label [data] = "data"></app-label>
+

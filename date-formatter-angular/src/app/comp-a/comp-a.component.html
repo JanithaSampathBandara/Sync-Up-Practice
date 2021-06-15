@@ -1,0 +1,7 @@
+<div class="container">
+    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
+        <input type="date" name="dateField" ngModel>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
